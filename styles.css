@@ -1,11 +1,11 @@
-body{
-    background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg);
-    background-size: 100%;
+.bg_img {
+    background-image: url("https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
     background-position: center center;
+    
 }
 .nav-item{
     padding: 0px 13px;
 }
-/* .navbar{
-    padding: 0px 150px;
-} */
+ 
