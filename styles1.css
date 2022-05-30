@@ -1,0 +1,26 @@
+.bg_img {
+    background-image: url("https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    
+}
+.nav-item{
+    padding: 0px 13px;
+}
+ 
+.carousel-item {
+    height: 10rem;
+    background-color: darkgray;
+}
+.main_block {
+    position:absolute;
+    top: 150px;
+    left: 20px;
+}
+.main_text { 
+    font-family:Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 52px;
+    color: white;
+    font-weight: 400;
+}
