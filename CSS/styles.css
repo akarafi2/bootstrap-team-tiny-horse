@@ -207,3 +207,7 @@ footer p {
     color: white;
     font-weight: 400;
 }
+
+.card-title {
+  border: 2px solid black;
+}
