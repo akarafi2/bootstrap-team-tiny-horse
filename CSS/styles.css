@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Comfortaa&display=swap');
+
+html {
+  font-size: 17px;
+}
+
+.nav-item {
+  text-align: left;
+}
+
+.section-1 {
+  background-image: url(images/priscilla-du-preez-234138-unsplash.jpeg);
+  background-position: left top;
+  color: #fff;
+  opacity: 1;
+  padding: 5rem;
+}
+
+.section-1 p:first-of-type {
+  font: small-caps bold 20px 'Comfortaa', cursive;
+}
+
+.section-1 :not(p:first-of-type) {
+  font-family: 'Cardo', serif;
+  font-size: 72px;
+}
+
+.section-2 {
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg");
+  background-attachment: scroll;
+  background-position: center bottom;
+  padding: 2rem;
+}
+
+.section-2 p {
+  visibility: hidden;
+}
+
+.section-3 {
+  background-color: #f4eae9;
+  font-family: 'Cardo', serif;
+  font-size: 30px;
+  padding: 4rem;
+}
+
+.section-4 {
+  text-align: center;
+  padding: 2rem 0rem 2rem 1rem;
+}
+
+.section-5-experience {
+  background-color: #f4eae9;
+  font-family: 'Cardo', serif;
+  font-size: 25px;
+  line-height: 2.5;
+  padding: 3rem;
+}
+
+.section-5-experience p:first-of-type {
+  font: small-caps bold 25px 'Comfortaa', cursive;
+}
+
+#triple-crown {
+  font: small-caps bold 20px 'Comfortaa', cursive;
+  margin-top: 1rem;
+  padding: 1.5rem 1rem 0 2rem;
+}
+
+.card {
+  border: none;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.card-title {
+  font-family: 'Cardo', serif;
+  font-size: 25px;;
+}
+
+.card img {
+  max-width: 80px;
+  padding-left: 1rem;
+}
+
+.your-stable {
+  background-color: #f4eae9;
+  text-align: center;
+  padding: 4rem;
+}
+
+.your-stable p:first-of-type {
+  font-variant: small-caps;
+}
+
+.your-stable p:nth-child(2) {
+  font-family: 'Cardo', serif;
+  font-size: 25px;
+}
+
+.col-sm-3 img {
+  margin: 0;
+}
+
+.row {
+  margin: 0%;
+}
+
+#carouselExampleCaptions p {
+  color: #000;
+}
+
+.carousel-inner {
+  padding: 3rem;
+
+}
+
+.carousel-inner img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+}
+
+.carousel-inner p:nth-of-type(2) {
+  font-variant: small-caps;
+}
+
+.carousel-inner img {
+  float: left;
+  padding: 1rem;
+}
+
+.carousel-inner p:last-of-type {
+  padding-top: 1rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.address {
+  background-color: #f4eae9;
+  padding: 4rem 4rem 4rem .2rem;
+}
+
+.address p:first-of-type {
+  font-variant: small-caps;
+}
+
+.address p:nth-of-type(2) {
+  font-family: 'Cardo', serif;
+  font-size: 28px;
+}
+
+.address a {
+  color: #f1867c;
+}
+
+address {
+  color: #fff;
+  font-variant: small-caps;
+  line-height: 3.0;
+  padding-top: 1.0rem;
+}
+
+footer {
+  background-color: #212326;
+  padding: 4rem 1rem .7rem 2rem;
+}
+
+footer p {
+  color: #97d4fa;
+  font-family: 'Cardo', serif;
+  font-size: 14px;
+  margin: 0%;
+  
+}
+
+footer p {
+  padding: 10rem 0 0 0;
+}
+
+.bg_img {
+    background-image: url("https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    
+}
+.nav-item{
+    padding: 0px 13px;
+}
+ 
+.carousel-item {
+    height: 10rem;
+    background-color: darkgray;
+}
+.main_block {
+    position:absolute;
+    top: 150px;
+    left: 20px;
+}
+.main_text { 
+    font-family:Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 52px;
+    color: white;
+    font-weight: 400;
+}
