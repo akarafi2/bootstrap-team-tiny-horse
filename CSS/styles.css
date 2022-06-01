@@ -170,11 +170,13 @@ footer {
 }
 
 footer p {
-  color: #97d4fa;
   font-family: 'Cardo', serif;
   font-size: 14px;
   margin: 0%;
   
+}
+.copyRight {
+  color: #97d4fa;
 }
 
 footer p {
@@ -210,4 +212,46 @@ footer p {
 
 .card-title {
   border: 2px solid black;
+  padding: 2rem;
+}
+.card-title a:link {
+   text-decoration: none;}
+.card-title a:visited {
+   text-decoration: none;}
+.card-title a:hover {
+   text-decoration: none;}
+.card-title a:active { text-decoration: none;}
+
+.card-title a {
+  color: inherit;
+}
+
+.cardsWrapper, .card1, .col1 {
+  background-color: #f4eae9;
+}
+.blockquote-footer {
+  background-color: white;
+  
+}
+p .author {
+  color:#000;
+}
+.contact {
+
+  background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding-left: 5%;
+  
+}
+.contactp {
+  font-size:40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  color: white;
+}
+.contactp a {
+  color: inherit;
 }
